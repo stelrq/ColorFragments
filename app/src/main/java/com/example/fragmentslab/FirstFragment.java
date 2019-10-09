@@ -38,7 +38,7 @@ public class FirstFragment extends Fragment implements View.OnClickListener {
         b.setOnClickListener(this);
 
         b = v.findViewById(R.id.button_first_green);
-        b.setOnClickListener(view -> mListener.onFragmentInteraction(Color.GREEN));
+        b.setOnClickListener(view -> mListener.onFragmentInteraction(Color.CYAN));
 
         b = v.findViewById(R.id.button_first_blue);
         b.setOnClickListener(this::setBlue);
